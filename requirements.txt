@@ -1,0 +1,6 @@
+streamlit
+groq
+elasticsearch
+sentence-transformers
+tqdm
+requests
