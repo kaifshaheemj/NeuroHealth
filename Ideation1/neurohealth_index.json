@@ -1,0 +1,142 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0,
+    "analysis": {
+      "analyzer": {
+        "medical_analyzer": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": [
+            "lowercase",
+            "medical_synonyms",
+            "asciifolding",
+            "stop"
+          ]
+        }
+      },
+      "filter": {
+        "medical_synonyms": {
+          "type": "synonym",
+          "synonyms": [
+            "bp, blood pressure, hypertension",
+            "heart attack, myocardial infarction, MI, cardiac arrest",
+            "stroke, CVA, cerebrovascular accident",
+            "sugar, glucose, blood sugar, blood glucose",
+            "tummy, stomach, abdomen, belly",
+            "breathless, short of breath, dyspnea, difficulty breathing",
+            "dizzy, dizziness, lightheaded, vertigo",
+            "tired, fatigue, exhaustion, lethargy",
+            "high bp, high blood pressure, hypertension",
+            "low bp, low blood pressure, hypotension",
+            "headache, head pain, cephalalgia",
+            "fever, pyrexia, high temperature",
+            "rash, skin rash, eruption, hives, urticaria",
+            "vomiting, throwing up, emesis, nausea vomiting",
+            "painkiller, analgesic, pain relief",
+            "paracetamol, acetaminophen, tylenol",
+            "ibuprofen, advil, nurofen, NSAID"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "doc_id": {
+        "type": "keyword"
+      },
+      "module": {
+        "type": "keyword",
+        "comment": "symptoms | conditions | medications | conversations | guidelines"
+      },
+      "source": {
+        "type": "keyword",
+        "comment": "medlineplus_connect | medlineplus_search | ddxplus | chatdoctor | synthetic | ncbi"
+      },
+      "urgency_tier": {
+        "type": "keyword",
+        "comment": "green | yellow | orange | red | unknown"
+      },
+
+      "symptom_names": {
+        "type": "text",
+        "analyzer": "medical_analyzer",
+        "fields": {
+          "keyword": { "type": "keyword" },
+          "suggest": { "type": "completion" }
+        }
+      },
+      "symptom_synonyms": {
+        "type": "text",
+        "analyzer": "medical_analyzer"
+      },
+      "body_location": {
+        "type": "keyword"
+      },
+      "icd10_codes": {
+        "type": "keyword"
+      },
+
+      "condition_name": {
+        "type": "text",
+        "analyzer": "medical_analyzer",
+        "fields": {
+          "keyword": { "type": "keyword" }
+        }
+      },
+      "condition_category": {
+        "type": "keyword",
+        "comment": "respiratory | cardiovascular | neurological | gastrointestinal | musculoskeletal | dermatological | urological | mental_health | endocrine | general"
+      },
+
+      "patient_text": {
+        "type": "text",
+        "analyzer": "medical_analyzer",
+        "comment": "natural language patient description - primary text for BM25"
+      },
+      "clinical_text": {
+        "type": "text",
+        "analyzer": "medical_analyzer",
+        "comment": "structured clinical content"
+      },
+      "full_text": {
+        "type": "text",
+        "analyzer": "medical_analyzer",
+        "comment": "combined patient + clinical text for BM25"
+      },
+
+      "embedding": {
+        "type": "dense_vector",
+        "dims": 384,
+        "index": true,
+        "similarity": "cosine",
+        "comment": "all-MiniLM-L6-v2 embeddings (384 dims). Use 1536 for OpenAI text-embedding-3-small"
+      },
+
+      "conversation_turns": {
+        "type": "nested",
+        "properties": {
+          "role":    { "type": "keyword" },
+          "content": { "type": "text", "analyzer": "medical_analyzer" }
+        }
+      },
+      "recommendation": {
+        "type": "text",
+        "analyzer": "medical_analyzer"
+      },
+      "red_flags": {
+        "type": "boolean"
+      },
+
+      "metadata": {
+        "type": "object",
+        "enabled": false,
+        "comment": "arbitrary source-specific fields, not indexed"
+      },
+      "ingested_at": {
+        "type": "date"
+      }
+    }
+  }
+}
