@@ -1,0 +1,222 @@
+[
+  {
+    "id": "1",
+    "name": "Cancers",
+    "url": "https://medlineplus.gov/cancers.html"
+  },
+  {
+    "id": "2",
+    "name": "Digestive System",
+    "url": "https://medlineplus.gov/digestivesystem.html"
+  },
+  {
+    "id": "3",
+    "name": "Children and Teenagers",
+    "url": "https://medlineplus.gov/childrenandteenagers.html"
+  },
+  {
+    "id": "4",
+    "name": "Women",
+    "url": "https://medlineplus.gov/women.html"
+  },
+  {
+    "id": "5",
+    "name": "Mental Health and Behavior",
+    "url": "https://medlineplus.gov/mentalhealthandbehavior.html"
+  },
+  {
+    "id": "6",
+    "name": "Older Adults",
+    "url": "https://medlineplus.gov/olderadults.html"
+  },
+  {
+    "id": "7",
+    "name": "Blood, Heart and Circulation",
+    "url": "https://medlineplus.gov/bloodheartandcirculation.html"
+  },
+  {
+    "id": "8",
+    "name": "Substance Use and Disorders",
+    "url": "https://medlineplus.gov/substanceuseanddisorders.html"
+  },
+  {
+    "id": "9",
+    "name": "Eyes and Vision",
+    "url": "https://medlineplus.gov/eyesandvision.html"
+  },
+  {
+    "id": "10",
+    "name": "Bones, Joints and Muscles",
+    "url": "https://medlineplus.gov/bonesjointsandmuscles.html"
+  },
+  {
+    "id": "11",
+    "name": "Kidneys and Urinary System",
+    "url": "https://medlineplus.gov/kidneysandurinarysystem.html"
+  },
+  {
+    "id": "12",
+    "name": "Infections",
+    "url": "https://medlineplus.gov/infections.html"
+  },
+  {
+    "id": "14",
+    "name": "Brain and Nerves",
+    "url": "https://medlineplus.gov/brainandnerves.html"
+  },
+  {
+    "id": "15",
+    "name": "Lungs and Breathing",
+    "url": "https://medlineplus.gov/lungsandbreathing.html"
+  },
+  {
+    "id": "16",
+    "name": "Ear, Nose and Throat",
+    "url": "https://medlineplus.gov/earnoseandthroat.html"
+  },
+  {
+    "id": "17",
+    "name": "Mouth and Teeth",
+    "url": "https://medlineplus.gov/mouthandteeth.html"
+  },
+  {
+    "id": "18",
+    "name": "Skin, Hair and Nails",
+    "url": "https://medlineplus.gov/skinhairandnails.html"
+  },
+  {
+    "id": "19",
+    "name": "Injuries and Wounds",
+    "url": "https://medlineplus.gov/injuriesandwounds.html"
+  },
+  {
+    "id": "20",
+    "name": "Pregnancy and Reproduction",
+    "url": "https://medlineplus.gov/pregnancyandreproduction.html"
+  },
+  {
+    "id": "21",
+    "name": "Genetics/Birth Defects",
+    "url": "https://medlineplus.gov/geneticsbirthdefects.html"
+  },
+  {
+    "id": "22",
+    "name": "Immune System",
+    "url": "https://medlineplus.gov/immunesystem.html"
+  },
+  {
+    "id": "23",
+    "name": "Endocrine System",
+    "url": "https://medlineplus.gov/endocrinesystem.html"
+  },
+  {
+    "id": "24",
+    "name": "Men",
+    "url": "https://medlineplus.gov/men.html"
+  },
+  {
+    "id": "25",
+    "name": "Diagnostic Tests",
+    "url": "https://medlineplus.gov/diagnostictests.html"
+  },
+  {
+    "id": "26",
+    "name": "Food and Nutrition",
+    "url": "https://medlineplus.gov/foodandnutrition.html"
+  },
+  {
+    "id": "27",
+    "name": "Wellness and Lifestyle",
+    "url": "https://medlineplus.gov/wellnessandlifestyle.html"
+  },
+  {
+    "id": "28",
+    "name": "Poisoning, Toxicology, Environmental Health",
+    "url": "https://medlineplus.gov/poisoningtoxicologyenvironmentalhealth.html"
+  },
+  {
+    "id": "29",
+    "name": "Safety Issues",
+    "url": "https://medlineplus.gov/safetyissues.html"
+  },
+  {
+    "id": "30",
+    "name": "Social/Family Issues",
+    "url": "https://medlineplus.gov/socialfamilyissues.html"
+  },
+  {
+    "id": "31",
+    "name": "Symptoms",
+    "url": "https://medlineplus.gov/symptoms.html"
+  },
+  {
+    "id": "32",
+    "name": "Health System",
+    "url": "https://medlineplus.gov/healthsystem.html"
+  },
+  {
+    "id": "33",
+    "name": "Population Groups",
+    "url": "https://medlineplus.gov/populationgroups.html"
+  },
+  {
+    "id": "34",
+    "name": "Sexual Health Issues",
+    "url": "https://medlineplus.gov/sexualhealthissues.html"
+  },
+  {
+    "id": "35",
+    "name": "Complementary and Alternative Therapies",
+    "url": "https://medlineplus.gov/complementaryandalternativetherapies.html"
+  },
+  {
+    "id": "36",
+    "name": "Drug Therapy",
+    "url": "https://medlineplus.gov/drugtherapy.html"
+  },
+  {
+    "id": "37",
+    "name": "Surgery and Rehabilitation",
+    "url": "https://medlineplus.gov/surgeryandrehabilitation.html"
+  },
+  {
+    "id": "38",
+    "name": "Transplantation and Donation",
+    "url": "https://medlineplus.gov/transplantationanddonation.html"
+  },
+  {
+    "id": "39",
+    "name": "Fitness and Exercise",
+    "url": "https://medlineplus.gov/fitnessandexercise.html"
+  },
+  {
+    "id": "40",
+    "name": "Metabolic Problems",
+    "url": "https://medlineplus.gov/metabolicproblems.html"
+  },
+  {
+    "id": "41",
+    "name": "Personal Health Issues",
+    "url": "https://medlineplus.gov/personalhealthissues.html"
+  },
+  {
+    "id": "42",
+    "name": "Female Reproductive System",
+    "url": "https://medlineplus.gov/femalereproductivesystem.html"
+  },
+  {
+    "id": "43",
+    "name": "Male Reproductive System",
+    "url": "https://medlineplus.gov/malereproductivesystem.html"
+  },
+  {
+    "id": "44",
+    "name": "Disasters",
+    "url": "https://medlineplus.gov/disasters.html"
+  },
+  {
+    "id": "45",
+    "name": "Diabetes Mellitus",
+    "url": "https://medlineplus.gov/diabetesmellitus.html"
+  }
+]

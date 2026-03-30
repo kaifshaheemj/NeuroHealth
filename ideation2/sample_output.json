@@ -1,0 +1,173 @@
+{
+  "_comment": "Sample output from step2_transform_health_topics.py — what gets ingested into Elasticsearch",
+
+  "health_topic_doc_example": {
+    "_comment": "A condition topic — the core use case for symptom-based search",
+    "doc_id": "nh_cond_b7e2a19f4c",
+    "topic_name": "Migraine",
+    "topic_type": "condition",
+    "also_called": ["Sick Headache"],
+    "see_references": ["Migraine Headache"],
+    "body_systems": ["Nervous System"],
+    "symptoms": [
+      "headache", "head pain", "nausea", "vomiting",
+      "blurred vision", "dizziness", "numbness", "tingling",
+      "sensitivity to light", "sensitivity to sound"
+    ],
+    "mesh_terms": ["Migraine Disorders", "Headache"],
+    "group_names": ["Brain and Nerves", "Head, Eyes, and Ears"],
+    "related_topic_names": ["Headache", "Cluster Headache", "Tension Headache"],
+    "keywords": [
+      "migraine", "sick headache", "migraine headache",
+      "migraine symptoms", "migraine treatment", "migraine causes",
+      "headache", "head pain", "nausea"
+    ],
+    "summary": "If you suffer from migraine headaches, you're not alone. About 12 percent of the U.S. population gets them. Migraines are recurring attacks of moderate to severe pain. The pain is throbbing or pulsing, and is often on one side of the head. During migraines, people are very sensitive to light and sound.",
+    "semantic_text": "Migraine is a condition topic. Also known as: Sick Headache. Body systems: Nervous System. Symptoms and signs: headache, head pain, nausea, vomiting, blurred vision, dizziness, numbness, tingling. Medical terms: Migraine Disorders, Headache. If you suffer from migraine headaches, you're not alone. About 12 percent of the U.S. population gets them.",
+    "url": "https://medlineplus.gov/migraine.html",
+    "source": "medlineplus",
+    "module": "health_knowledge",
+    "embedding": ["<768-dimensional float vector (BioLord-2023-C) — generated at ingestion time>"]
+  },
+
+  "drug_topic_doc_example": {
+    "_comment": "Drug topics are also included in the unified index",
+    "doc_id": "nh_drug_a3f9e12b1c",
+    "topic_name": "Metformin",
+    "topic_type": "drug",
+    "also_called": ["Glucophage", "Fortamet", "Glumetza"],
+    "see_references": [],
+    "body_systems": ["Endocrine System"],
+    "symptoms": [],
+    "mesh_terms": ["Metformin", "Hypoglycemic Agents"],
+    "group_names": ["Drug Therapy", "Endocrine System", "Diabetes Mellitus"],
+    "related_topic_names": ["Diabetes Medicines", "Diabetes Type 2"],
+    "keywords": [
+      "metformin", "glucophage", "fortamet", "glumetza",
+      "metformin medicine", "metformin medication", "metformin side effects"
+    ],
+    "summary": "Metformin is used to treat type 2 diabetes. It helps control blood sugar levels.",
+    "semantic_text": "Metformin is a drug topic. Also known as: Glucophage, Fortamet, Glumetza. Body systems: Endocrine System. Medical terms: Metformin, Hypoglycemic Agents. Metformin is used to treat type 2 diabetes.",
+    "url": "https://medlineplus.gov/druginfo/meds/a696005.html",
+    "source": "medlineplus",
+    "module": "health_knowledge",
+    "embedding": ["<768-dim vector (BioLord-2023-C)>"]
+  },
+
+  "symptom_condition_map_example": {
+    "_comment": "symptom phrase → list of conditions that exhibit this symptom",
+    "headache": [
+      {"condition": "Migraine", "body_systems": ["Nervous System"], "topic_type": "condition", "url": "https://medlineplus.gov/migraine.html"},
+      {"condition": "Tension Headache", "body_systems": ["Nervous System"], "topic_type": "condition", "url": "https://medlineplus.gov/tensionheadache.html"},
+      {"condition": "Meningitis", "body_systems": ["Nervous System", "Immune System"], "topic_type": "condition", "url": "https://medlineplus.gov/meningitis.html"},
+      {"condition": "Concussion", "body_systems": ["Nervous System"], "topic_type": "condition", "url": "https://medlineplus.gov/concussion.html"},
+      {"condition": "Sinusitis", "body_systems": ["ENT"], "topic_type": "condition", "url": "https://medlineplus.gov/sinusitis.html"}
+    ],
+    "fever": [
+      {"condition": "Flu", "body_systems": ["Immune System"], "topic_type": "condition", "url": "https://medlineplus.gov/flu.html"},
+      {"condition": "Meningitis", "body_systems": ["Nervous System", "Immune System"], "topic_type": "condition", "url": "https://medlineplus.gov/meningitis.html"},
+      {"condition": "Malaria", "body_systems": ["Immune System"], "topic_type": "condition", "url": "https://medlineplus.gov/malaria.html"}
+    ],
+    "chest pain": [
+      {"condition": "Heart Attack", "body_systems": ["Cardiovascular System"], "topic_type": "condition", "url": "https://medlineplus.gov/heartattack.html"},
+      {"condition": "Angina", "body_systems": ["Cardiovascular System"], "topic_type": "condition", "url": "https://medlineplus.gov/angina.html"},
+      {"condition": "Pneumonia", "body_systems": ["Respiratory System"], "topic_type": "condition", "url": "https://medlineplus.gov/pneumonia.html"}
+    ]
+  },
+
+  "keyword_map_example": {
+    "_comment": "Flat lookup: any alias/synonym → canonical topic name",
+    "heart attack":        "Heart Attack",
+    "myocardial infarction": "Heart Attack",
+    "cardiac arrest":      "Heart Attack",
+    "flu":                 "Flu",
+    "influenza":           "Flu",
+    "grippe":              "Flu",
+    "migraine":            "Migraine",
+    "sick headache":       "Migraine",
+    "diabetes":            "Diabetes",
+    "diabetes mellitus":   "Diabetes",
+    "blood sugar disease": "Diabetes"
+  },
+
+  "elasticsearch_query_examples": {
+    "keyword_lookup": {
+      "_comment": "O(1) exact lookup — user says 'heart attack' → resolve to canonical name",
+      "GET": "neurohealth_health_kwmap/_doc/heart attack"
+    },
+    "symptom_based_search": {
+      "_comment": "User reports symptoms → find matching conditions (core conversational use case)",
+      "POST": "neurohealth_symptom_map/_search",
+      "body": {
+        "query": {
+          "bool": {
+            "should": [
+              {"terms": {"symptom.keyword": ["headache", "fever", "stiff neck"], "boost": 3.0}},
+              {"match": {"symptom": {"query": "headache, fever, stiff neck", "boost": 1.5}}}
+            ]
+          }
+        },
+        "knn": {
+          "field": "embedding",
+          "query_vector": ["<768-dim vector of symptom query>"],
+          "k": 10,
+          "num_candidates": 100
+        },
+        "rank": {"_comment": "RRF removed — basic license uses additive BM25+KNN scoring"}
+      }
+    },
+    "hybrid_health_search": {
+      "_comment": "Natural language query — 'i have a bad headache and feel nauseous'",
+      "POST": "neurohealth_health_topics/_search",
+      "body": {
+        "query": {
+          "bool": {
+            "should": [
+              {"term": {"topic_name.keyword": {"value": "Migraine", "boost": 5.0}}},
+              {"multi_match": {
+                "query": "bad headache feel nauseous",
+                "fields": ["topic_name^3", "also_called^2.5", "symptoms^2.5", "summary"],
+                "fuzziness": "AUTO"
+              }},
+              {"match": {"symptoms": {"query": "headache nausea", "analyzer": "health_analyzer", "boost": 2.0}}}
+            ]
+          }
+        },
+        "knn": {
+          "field": "embedding",
+          "query_vector": ["<768-dim vector>"],
+          "k": 5,
+          "num_candidates": 75
+        },
+        "rank": {"_comment": "RRF removed — basic license uses additive BM25+KNN scoring"}
+      }
+    },
+    "filter_by_type_and_system": {
+      "_comment": "Find all conditions in the Nervous System",
+      "POST": "neurohealth_health_topics/_search",
+      "body": {
+        "query": {
+          "bool": {
+            "filter": [
+              {"term": {"topic_type": "condition"}},
+              {"term": {"body_systems": "Nervous System"}}
+            ]
+          }
+        },
+        "size": 50
+      }
+    },
+    "autocomplete": {
+      "_comment": "Type-ahead as user types",
+      "POST": "neurohealth_health_topics/_search",
+      "body": {
+        "suggest": {
+          "topic_suggest": {
+            "prefix": "diab",
+            "completion": {"field": "topic_name.suggest", "size": 5}
+          }
+        }
+      }
+    }
+  }
+}

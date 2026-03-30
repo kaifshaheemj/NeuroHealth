@@ -1,0 +1,681 @@
+[
+  {
+    "term": ">Activity Count",
+    "definition": ">Physical activity is any body movement that works your muscles and requires more energy than resting. Walking, running, dancing, swimming, yoga, and gardening are a few examples of physical activity.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/health-topics/physical-activity-and-your-heart",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Aerobic Exercise",
+    "definition": ">Aerobic exercise is activity that moves your large muscles, such as those in your arms and legs.  It makes you breathe harder and your heart beat faster.  Examples include running, swimming, walking, and biking.  Over time, regular aerobic activity makes your heart and lungs stronger and able to work better.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/health-topics/physical-activity-and-your-heart#Types",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Basal Metabolic Rate",
+    "definition": ">Basal metabolic rate is the measure of the energy necessary for maintaining basic functions, such as breathing, heart rate, and digestion.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Body Mass Index",
+    "definition": ">Body Mass Index (BMI) is an estimate of your body fat.  It is calculated from your height and weight.  It can tell you whether you are underweight, normal, overweight, or obese. It can help you gauge your risk for diseases that can occur with more body fat.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/health/educational/lose_wt/risk.htm",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Cool Down",
+    "definition": ">Your physical activity session should end by gradually slowing down. You can also cool down by changing to a less vigorous activity, such as moving from jogging to walking. This process allows your body to relax gradually.  A cool down can last 5 minutes or more.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/files/docs/public/heart/phy_active.pdf",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Energy Balance",
+    "definition": ">The balance between calories you get from eating and drinking and those you use up through physical activity and body processes like breathing, digesting food, and, in children, growing.",
+    "reference": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Energy Consumed",
+    "definition": ">Energy is another word for calories. What you eat and drink is \"energy in.\" What you burn through physical activity is \"energy out.\"",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/health/educational/wecan/healthy-weight-basics/balance.htm",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Flexibility  (Training)",
+    "definition": ">Flexibility training is exercise that stretches and lengthens your muscles. It can help improve your joint flexibility and keep your muscles limber.  This can help prevent injuries. Some examples are yoga, tai chi, and pilates.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/files/docs/public/heart/phy_active.pdf",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Heart Rate",
+    "definition": ">Heart rate, or pulse, is how many times your heart beats in a period of time — usually a minute. The usual pulse for an adult is 60 to 100 beats per minute after resting for at least 10 minutes.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/health-topics/how-heart-works",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Maximum Heart Rate",
+    "definition": ">The maximum heart rate is the fastest your heart can beat.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/health/resources/heart/obesity-guide-physical-active-html",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Perspiration",
+    "definition": ">Perspiration, or sweat, is a clear, salty liquid produced by glands in your skin.   It is how your body cools itself.  Sweating a lot is normal when it is hot or when you exercise, feel anxious, or have a fever. It can also happen during menopause.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/sweat.html",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Strength Training",
+    "definition": ">Strength training, or resistance training, is exercise that works your muscles by making you push or pull against something. It strengthens your muscles and can improve your bone strength and balance. Some examples are lifting weights, working with resistance bands, and doing push-ups and pull-ups.",
+    "reference": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Target Heart Rate",
+    "definition": ">Your target heart rate is a percentage of your maximum heart rate, which is the fastest your heart can beat.  It is based on your age.  The activity level that is best for your health uses 50–75 percent of your maximum heart rate. This range is your target heart rate zone.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/health/resources/heart/obesity-guide-physical-active-html",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Warm Up",
+    "definition": ">Your physical activity session should start at a slow-to-medium pace to give your body a chance to get ready for more vigorous movement. A warm up should last about 5 to 10 minutes.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/files/docs/public/heart/phy_active.pdf",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Water Intake",
+    "definition": ">We all need to drink water. How much you need depends on your size, activity level, and the weather where you live. Keeping track of your water intake helps make sure that you get enough. Your intake includes fluids that you drink, and fluids you get from food.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/dehydration.html",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Weight (Body Mass)",
+    "definition": ">Your weight is the mass or quantity of your heaviness.  It is expressed by units of pounds or kilograms.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Fitness"
+  },
+  {
+    "term": ">Basal Body Temperature",
+    "definition": ">Basal body temperature is your temperature at rest when you wake up in the morning. This temperature rises slightly around the time of ovulation. Keeping track of this temperature and other changes such as cervical mucus may help you figure out when you are ovulating. Take your temperature before you get out of bed every morning. Since the change during ovulation is only about 1/2 degree F (1/3 degree C), you should use a sensitive thermometer such as a basal body thermometer.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Blood Alcohol Content",
+    "definition": ">Blood alcohol content, or blood alcohol concentration (BAC), is the amount of alcohol in a given volume of blood.  For medical and legal purposes, BAC is expressed as grams of alcohol in a 100 milliliter sample of blood.",
+    "reference": "National Institute on Alcohol Abuse and Alcoholism",
+    "reference_url": "https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/understanding-dangers-of-alcohol-overdose",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Blood  Pressure",
+    "definition": ">Blood pressure is the force of blood pushing against the walls of the arteries as your heart pumps blood.  It includes two measurements. \"Systolic\" is your blood pressure when your heart beats while pumping blood. \"Diastolic\" is your blood pressure when the heart is at rest between beats. You usually see blood pressure numbers written with the systolic number above or before the diastolic number. For example, you might see 120/80.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Blood Type",
+    "definition": ">There are four major blood types: A, B, O, and AB. The types are based on substances on the surface of the blood cells.  Besides blood types, there is the Rh factor.  It is a protein on red blood cells. Most people are Rh-positive; they have Rh factor. Rh-negative people don't have it.  Rh factor is inherited though genes.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/rhincompatibility.html",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Body Mass Index",
+    "definition": ">Body Mass Index (BMI) is an estimate of your body fat.  It is calculated from your height and weight.  It can tell you whether you are underweight, normal, overweight, or obese. It can help you gauge your risk for diseases that can occur with more body fat.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/health/educational/lose_wt/risk.htm",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Body Temperature",
+    "definition": ">Body temperature is a measure of your body’s level of heat.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Cervical Mucus",
+    "definition": ">Cervical mucus comes from the cervix. It collects in the vagina. Tracking the changes in your mucus during your cycle, along with changes in your basal body temperature, may help you figure out when you are ovulating.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Galvanic Skin  Response",
+    "definition": ">Galvanic skin response is a change in electrical resistance of the skin.  It can occur in response to emotional arousal or other conditions.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Heart Rate",
+    "definition": ">Heart rate, or pulse, is how many times your heart beats in a period of time — usually a minute. The usual pulse for an adult is 60 to 100 beats per minute after resting for at least 10 minutes.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/health-topics/how-heart-works",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Height",
+    "definition": ">Your height is the distance from the bottom of your feet to the top of your head when you are standing up straight.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Inhaler Usage",
+    "definition": ">An inhaler is a device that sprays medicine through your mouth to your lungs.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Menstruation",
+    "definition": ">Menstruation, or period, is normal vaginal bleeding that happens as part of a woman's monthly cycle. Keeping track of your cycles helps you figure out when the next one will come, whether you missed one, and if there is a problem with your cycles.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/menstruation.html",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Ovulation Test",
+    "definition": ">Ovulation is the release of an egg from a woman's ovary. Ovulation tests detect a rise in a hormone level that happens just before ovulation. This can help you figure out when you will ovulate, and when you are most likely to get pregnant.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/femaleinfertility.html",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Respiratory Rate",
+    "definition": ">Respiratory rate is your rate of breathing (inhalation and exhalation) within a certain time. It is usually stated as breaths per minute.",
+    "reference": "National Cancer Institute",
+    "reference_url": "https://ncit.nci.nih.gov/ncitbrowser/",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Sexual Activity",
+    "definition": ">Sexuality is part of being human and plays a role in healthy relationships. Keeping track of your sexual activity can help you watch for sexual problems and fertility problems. It can also help you learn about your risk for sexually transmitted diseases.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/sexualhealth.html",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Spotting",
+    "definition": ">Spotting is light vaginal bleeding that is not your period. It could be between periods, after menopause, or during pregnancy. There can be many different causes; some are serious and some are not. Contact your health care provider if you have spotting; call right away if you are pregnant.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/vaginalbleeding.html",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">UV Exposure",
+    "definition": ">Ultraviolet (UV) rays are an invisible form of radiation from sunlight. They can help your body form vitamin D naturally. But they can pass through your skin and damage your skin cells, causing sunburn. UV rays can also cause eye problems, wrinkles, skin spots, and skin cancer.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/sunexposure.html",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Weight (Body Mass)",
+    "definition": ">Your weight is the mass or quantity of your heaviness.  It is expressed by units of pounds or kilograms.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: General Health"
+  },
+  {
+    "term": ">Antioxidants",
+    "definition": ">Antioxidants are substances that may prevent or delay some types of cell damage. Examples include beta-carotene, lutein, lycopene, selenium, and vitamins C and E. They are found in many foods, including fruits and vegetables.  They are also available as dietary supplements.  Most research has not shown antioxidant supplements to be helpful in preventing diseases.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements ",
+    "reference_url": "",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Calcium",
+    "definition": ">Calcium is a mineral found in many foods. Almost all calcium is stored in bones and teeth to help make and keep them strong.  Your body needs calcium to help muscles and blood vessels contract and expand, and to send messages through the nervous system.  Calcium is also used to help release hormones and enzymes that affect almost every function in the human body.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements ",
+    "reference_url": "http://ods.od.nih.gov/factsheets/Calcium-Consumer/",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Daily Value (DV)",
+    "definition": ">The Daily Value (DV) tells you what percentage of a nutrient one serving of that food or supplement provides compared to the recommended amount.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements ",
+    "reference_url": "https://ods.od.nih.gov/Health_Information/ODS_Frequently_Asked_Questions.aspx",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Dietary Supplements",
+    "definition": ">A dietary supplement is a product you take to supplement your diet.  It contains one or more dietary ingredients (including vitamins; minerals; herbs or other botanicals; amino acids; and other substances).  Supplements do not have to go through the testing that drugs do for effectiveness and safety.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements ",
+    "reference_url": "",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Electrolytes",
+    "definition": ">Electrolytes are minerals in body fluids.  They include sodium, potassium, magnesium, and chloride. When you are dehydrated, your body does not have enough fluid and electrolytes.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/fluidandelectrolytebalance.html",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Iodine",
+    "definition": ">Iodine is a mineral found in some foods. Your body needs iodine to make thyroid hormones. These hormones control your body’s metabolism and other functions. They are also important for bone and brain development during pregnancy and infancy.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements ",
+    "reference_url": "https://ods.od.nih.gov/factsheets/Iodine-Consumer/",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Iron",
+    "definition": ">Iron is a mineral. It is also added to some food products and is available as a dietary supplement. Iron is a part of hemoglobin, a protein that transports oxygen from the lungs to the tissues. It helps provide oxygen to muscles. Iron is important for cell growth, development, and normal body functions.  Iron also helps the body make some hormones and connective tissue.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements ",
+    "reference_url": "https://ods.od.nih.gov/factsheets/Iron-Consumer/",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Magnesium",
+    "definition": ">Magnesium is a mineral naturally present in many foods, and is added to other food products.  It is also available as a dietary supplement and present in some medicines.  It helps your body regulate muscle and nerve function, blood sugar levels, and blood pressure. It also helps your body make protein, bone, and DNA.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements ",
+    "reference_url": "http://ods.od.nih.gov/factsheets/Magnesium-Consumer/",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Minerals",
+    "definition": ">Minerals are those elements on the earth and in foods that our bodies need to develop and function normally.  Those essential for health include calcium, phosphorus, potassium, sodium, chloride, magnesium, iron, zinc, iodine, chromium, copper, fluoride, molybdenum, manganese, and selenium.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements",
+    "reference_url": "",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Multivitamin/Mineral  Supplements",
+    "definition": ">Multivitamin/mineral supplements contain a combination of vitamins and minerals. They sometimes have other ingredients, such as herbs. They are also called multis, multiples, or simply vitamins. Multis help people get the recommended amounts of vitamins and minerals when they cannot or do not get enough of these nutrients from food.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements",
+    "reference_url": "http://ods.od.nih.gov/factsheets/MVMS-Consumer/",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Phosphorus",
+    "definition": ">Phosphorus is a mineral that helps keep your bones healthy. It also helps keep blood vessels and muscles working. Phosphorus is found naturally in foods rich in protein, such as meat, poultry, fish, nuts, beans, and dairy products. Phosphorus is also added to many processed foods.",
+    "reference": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "reference_url": "",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Potassium",
+    "definition": ">Potassium is a mineral that your cells, nerves, and muscles need to function properly. It helps your body regulate your blood pressure, heart rhythm and the water content in cells.  It also helps with digestion. Most people get all the potassium they need from what they eat and drink. It is also available as a dietary supplement.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/potassium.html",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Recommended Dietary  Allowance (RDA)",
+    "definition": ">Recommended Dietary Allowance (RDA) is the amount of a nutrient you should get each day.  There are different RDAs based on age, gender, and whether a woman is pregnant or breastfeeding.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements",
+    "reference_url": "https://ods.od.nih.gov/Health_Information/ODS_Frequently_Asked_Questions.aspx",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Selenium",
+    "definition": ">Selenium is a mineral that the body needs to stay healthy. It is important for reproduction, thyroid function, and DNA production. It also helps protect the body from damage caused by free radicals (unstable atoms or molecules that can damage cells) and infections.  Selenium is present in many foods, and is sometimes added to other foods. It is also available as a dietary supplement.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements ",
+    "reference_url": "http://ods.od.nih.gov/factsheets/Selenium-Consumer/",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Sodium",
+    "definition": ">Table salt is made up of the elements sodium and chlorine - the technical name for salt is sodium chloride. Your body needs some sodium to work properly. It helps with the function of nerves and muscles. It also helps to keep the right balance of fluids in your body.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/dietarysodium.html",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Zinc",
+    "definition": ">Zinc, a mineral that people need to stay healthy, is found in cells throughout the body. It helps the immune system fight off invading bacteria and viruses. The body also needs zinc to make proteins and DNA, the genetic material in all cells. During pregnancy, infancy, and childhood, the body needs zinc to grow and develop properly. Zinc also helps wounds heal and is important for our ability to taste and smell. Zinc is found in a wide variety of foods, and is found in most multivitamin/mineral supplements.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements",
+    "reference_url": "http://ods.od.nih.gov/factsheets/Zinc-Consumer/",
+    "category": "Definitions of Health Terms"
+  },
+  {
+    "term": ">Amino Acids",
+    "definition": ">Amino acids are the building blocks of proteins. The body produces many amino acids and others come from food. The body absorbs amino acids through the small intestine into the blood.  Then the blood carries them throughout the body.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Blood Glucose",
+    "definition": ">Glucose — also called blood sugar — is the main sugar found in the blood and the main source of energy for your body.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/bloodsugar.html",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Calories",
+    "definition": ">A unit of energy in food. Carbohydrates, fats, protein, and alcohol in the foods and drinks we eat provide food energy or \"calories.\"",
+    "reference": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Carbohydrates",
+    "definition": ">Carbohydrates are one of the main types of nutrients. Your digestive system changes carbohydrates into glucose (blood sugar). Your body uses this sugar for energy for your cells, tissues and organs. It stores any extra sugar in your liver and muscles for when it is needed. There are two types of carbohydrates: simple and complex. Simple carbohydrates include natural and added sugars.  Complex carbohydrates include whole grain breads and cereals, starchy vegetables and legumes.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/carbohydrates.html",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Cholesterol",
+    "definition": ">Cholesterol is a waxy, fat-like substance that’s found in all cells of the body. Your body needs some cholesterol to make hormones, vitamin D, and substances that help you digest foods. Your body makes all the cholesterol it needs. However, cholesterol also is found in some of the foods you eat. High levels of cholesterol in the blood can increase your risk of heart disease.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/health-topics/high-blood-cholesterol",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Dehydration",
+    "definition": ">Dehydration is a condition that happens when you do not take in enough liquids to replace those that you lose.  You can lose liquids through frequent urinating, sweating, diarrhea, or vomiting. When you are dehydrated, your body does not have enough fluid and electrolytes to work properly.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/dehydration.html",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Diet",
+    "definition": ">Your diet is made up of what you eat and drink.  There are many different types of diets, such as vegetarian diets, weight loss diets, and diets for people with certain health problems.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Dietary Supplements",
+    "definition": ">A dietary supplement is a product you take to supplement your diet.  It contains one or more dietary ingredients (including vitamins; minerals; herbs or other botanicals; amino acids; and other substances).  Supplements do not have to go through the testing that drugs do for effectiveness and safety.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements ",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Digestion",
+    "definition": ">Digestion is the process the body uses to break down food into nutrients.  The body uses the nutrients for energy, growth, and cell repair.",
+    "reference": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "reference_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Electrolytes",
+    "definition": ">Electrolytes are minerals in body fluids.  They include sodium, potassium, magnesium, and chloride. When you are dehydrated, your body does not have enough fluid and electrolytes.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/fluidandelectrolytebalance.html",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Enzymes",
+    "definition": ">Enzymes are substances that speed up chemical reactions in the body.",
+    "reference": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "reference_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Fatty Acid",
+    "definition": ">Fatty acid is a major component of fats that is used by the body for energy and tissue development.",
+    "reference": "National Cancer Institute",
+    "reference_url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/fatty-acid",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Fiber",
+    "definition": ">Fiber is a substance in plants. Dietary fiber is the kind you eat. It's a type of carbohydrate. You may also see it listed on a food label as soluble fiber or insoluble fiber. Both types have important health benefits. Fiber makes you feel full faster, and stay full for a longer time. That can help you control your weight. It helps digestion and helps prevent constipation.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/dietaryfiber.html",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Gluten",
+    "definition": ">Gluten is a protein found in wheat, rye, and barley.  It can also be in products such as vitamin and nutrient supplements, lip balms, and certain medicines.",
+    "reference": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Glycemic Index",
+    "definition": ">The glycemic index (GI) measures how a carbohydrate-containing food raises blood sugar.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">HDL",
+    "definition": ">HDL stands for high-density lipoproteins.  It is also known as “good” cholesterol.  HDL is one of the two types of lipoproteins that carry cholesterol throughout your body.  It carries the cholesterol from other parts of your body back to your liver. Your liver removes the cholesterol from your body.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/health-topics/high-blood-cholesterol",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">LDL",
+    "definition": ">LDL stands for low-density lipoproteins.  It is also known as “bad” cholesterol.   LDL is one of the two types of lipoproteins that carry cholesterol throughout your body.  A high LDL level leads to a buildup of cholesterol in your arteries.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/health-topics/high-blood-cholesterol",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Metabolism",
+    "definition": ">Metabolism is the process your body uses to get or make energy from the food you eat.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Monounsaturated Fat",
+    "definition": ">Monounsaturated fat is a type of fat is found in avocados, canola oil, nuts, olives and olive oil, and seeds. Eating food that has more monounsaturated fat (or \"healthy fat\") instead of saturated fat (like butter) may help lower cholesterol and reduce heart disease risk. However, monounsaturated fat has the same number of calories as other types of fat and may contribute to weight gain if you eat too much of it.",
+    "reference": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Nutrient",
+    "definition": ">Nutrients are chemical compounds in food that are used by the body to function properly and maintain health. Examples include proteins, fats, carbohydrates, vitamins, and minerals.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements",
+    "reference_url": "http://ods.od.nih.gov/factsheets/showterm.aspx?tID=163",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Nutrition",
+    "definition": ">This field of study focuses on foods and substances in foods that help animals (and plants) to grow and stay healthy. Nutrition science also includes behaviors and social factors related to food choices. The foods we eat provide energy (calories) and nutrients such as protein, fat, carbohydrate, vitamins, minerals, and water. Eating healthy foods in the right amounts gives your body energy to perform daily activities, helps you to maintain a healthy body weight, and can lower your risk for certain diseases such as diabetes and heart disease.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Polyunsaturated Fat",
+    "definition": ">Polyunsaturated fat is a type of fat that is liquid at room temperature. There are two types of polyunsaturated fatty acids (PUFAs): omega-6 and omega-3. Omega-6 fatty acids are found in liquid vegetable oils, such as corn oil, safflower oil, and soybean oil. Omega-3 fatty acids come from plant sources—including canola oil, flaxseed, soybean oil, and walnuts—and from fish and shellfish.",
+    "reference": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Protein",
+    "definition": ">Protein is in every living cell in the body. Your body needs protein from the foods you eat to build and maintain bones, muscles, and skin. You get proteins in your diet from meat, dairy products, nuts, and certain grains and beans. Proteins from meat and other animal products are complete proteins. This means they supply all of the amino acids the body can't make on its own. Plant proteins are incomplete. You must combine different types of plant proteins to get all of the amino acids your body needs. You need to eat protein every day, because your body doesn't store it the way it stores fats or carbohydrates.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/dietaryproteins.html",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Saturated Fat",
+    "definition": ">Saturated fat is a type of fat that is  solid at room temperature. Saturated fat is found in full-fat dairy products (like butter, cheese, cream, regular ice cream, and whole milk), coconut oil, lard, palm oil, ready-to-eat meats, and the skin and fat of chicken and turkey, among other foods. Saturated fats have the same number of calories as other types of fat, and may contribute to weight gain if eaten in excess. Eating a diet high in saturated fat also raises blood cholesterol and risk of heart disease.",
+    "reference": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Sodium",
+    "definition": ">Table salt is made up of the elements sodium and chlorine - the technical name for salt is sodium chloride. Your body needs some sodium to work properly. It helps with the function of nerves and muscles. It also helps to keep the right balance of fluids in your body.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/dietarysodium.html",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Sugar",
+    "definition": ">Sugars are a type of simple carbohydrate.  They have a sweet taste.  Sugars can be found naturally in fruits, vegetables, milk, and milk products.  They are also added to many foods and drinks during preparation or processing.  Types of sugar include glucose, fructose, and sucrose.  Your digestive system breaks down sugar into glucose.  Your cells use the glucose for energy.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Total Fat",
+    "definition": ">Fat is a type of nutrient. You need a certain amount of fat in your diet to stay healthy, but not too much.  Fats give you energy and help your body absorb vitamins. Dietary fat also plays a major role in your cholesterol levels.  Not all fats are the same. You should try to avoid saturated fats and trans fats.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/dietaryfats.html",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Trans Fat",
+    "definition": ">Trans fat is a type of fat that is created when liquid oils are changed into solid fats, like shortening and some margarines.  It makes them last longer without going bad. It may also be found in crackers, cookies, and snack foods. Trans fat raises your LDL (bad) cholesterol and lowers your HDL (good) cholesterol.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Triglycerides",
+    "definition": ">Triglycerides are a type of fat found in your blood. Too much of this type of fat may raise the risk of coronary artery heart disease, especially in women.",
+    "reference": "National Heart, Lung, and Blood Institute",
+    "reference_url": "https://www.nhlbi.nih.gov/health-topics/high-blood-cholesterol#Diagnosis",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Water Intake",
+    "definition": ">We all need to drink water. How much you need depends on your size, activity level, and the weather where you live. Keeping track of your water intake helps make sure that you get enough. Your intake includes fluids that you drink, and fluids you get from food.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/dehydration.html",
+    "category": "Definitions of Health Terms: Nutrition"
+  },
+  {
+    "term": ">Antioxidants",
+    "definition": ">Antioxidants are substances that may prevent or delay some types of cell damage. Examples include beta-carotene, lutein, lycopene, selenium, and vitamins C and E. They are found in many foods, including fruits and vegetables.  They are also available as dietary supplements.  Most research has not shown antioxidant supplements to be helpful in preventing diseases.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements ",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Daily Value (DV)",
+    "definition": ">The Daily Value (DV) tells you what percentage of a nutrient one serving of that food or supplement provides compared to the recommended amount.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements ",
+    "reference_url": "https://ods.od.nih.gov/Health_Information/ODS_Frequently_Asked_Questions.aspx",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Dietary Supplements",
+    "definition": ">A dietary supplement is a product you take to supplement your diet.  It contains one or more dietary ingredients (including vitamins; minerals; herbs or other botanicals; amino acids; and other substances).  Supplements do not have to go through the testing that drugs do for effectiveness and safety.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements",
+    "reference_url": "https://ods.od.nih.gov/HealthInformation/healthprofessional.aspx",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Fat-Soluble Vitamins",
+    "definition": ">Fat-soluble vitamins include vitamins A, D, E, and K. The body stores fat-soluble vitamins in the liver and fatty tissues.",
+    "reference": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Folate",
+    "definition": ">Folate is a B-vitamin that is naturally present in many foods. A form of folate called folic acid is used in dietary supplements and fortified foods. Our bodies need folate to make DNA and other genetic material. Folate is also needed for the body’s cells to divide. It is important for women to get enough folic acid before and during pregnancy.  It can prevent major birth defects of the baby's brain or spine.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements ",
+    "reference_url": "http://ods.od.nih.gov/factsheets/Folate-Consumer/",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Multivitamin/Mineral  Supplements",
+    "definition": ">Multivitamin/mineral supplements contain a combination of vitamins and minerals. They sometimes have other ingredients, such as herbs. They are also called multis, multiples, or simply vitamins. Multis help people get the recommended amounts of vitamins and minerals when they cannot or do not get enough of these nutrients from food.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements",
+    "reference_url": "http://ods.od.nih.gov/factsheets/MVMS-Consumer/",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Niacin",
+    "definition": ">Niacin is a nutrient in the vitamin B complex. The body needs it in small amounts to function and stay healthy. Niacin helps some enzymes work properly and helps the skin, nerves, and digestive tract stay healthy.",
+    "reference": "National Cancer Institute ",
+    "reference_url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/niacin",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Recommended Dietary  Allowance (RDA)",
+    "definition": ">Recommended Dietary Allowance (RDA) is the amount of a nutrient you should get each day.  There are different RDAs based on age, gender, and whether a woman is pregnant or breastfeeding.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements",
+    "reference_url": "https://ods.od.nih.gov/Health_Information/ODS_Frequently_Asked_Questions.aspx",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Vitamin A",
+    "definition": ">Vitamin A plays a role in your vision, bone growth, reproduction, cell functions, and immune system. Vitamin A is an antioxidant. It can come from plant or animal sources. Plant sources include colorful fruits and vegetables. Animal sources include liver and whole milk. Vitamin A is also added to foods like cereals.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/vitamina.html",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Vitamin B6",
+    "definition": ">Vitamin B6 is present in many foods and is added to other foods. The body needs vitamin B6 for many chemical reactions involved in metabolism. Vitamin B6 is involved in brain development during pregnancy and infancy. It also is involved in immune function.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements",
+    "reference_url": "http://ods.od.nih.gov/factsheets/VitaminB6-Consumer/",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Vitamin B12",
+    "definition": ">Vitamin B12 helps keep the body’s nerve and blood cells healthy.  It helps make DNA, the genetic material in all cells. Vitamin B12 also helps prevent a type of anemia that makes people tired and weak. Vitamin B12 is found naturally in a wide variety of animal foods.  It is also added to some fortified foods and is  found in most multivitamin supplements.",
+    "reference": "National Institutes of Health, Office of Dietary Supplements",
+    "reference_url": "http://ods.od.nih.gov/factsheets/VitaminB12-Consumer/",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Vitamin C",
+    "definition": ">Vitamin C is an antioxidant. It is important for your skin, bones, and connective tissue. It promotes healing and helps the body absorb iron. Vitamin C comes from fruits and vegetables. Good sources include citrus, red and green peppers, tomatoes, broccoli, and greens. Some juices and cereals have added vitamin C.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/vitaminc.html",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Vitamin D",
+    "definition": ">Vitamin D helps your body absorb calcium. Calcium is one of the main building blocks of bone. A lack of vitamin D can lead to bone diseases such as osteoporosis or rickets. Vitamin D also has a role in your nerve, muscle, and immune systems. You can get vitamin D in three ways: through your skin (from sunlight), from your diet, and from supplements. Your body forms vitamin D naturally after exposure to sunlight. However, too much sun exposure can lead to skin aging and skin cancer, so many people try to get their vitamin D from other sources. Vitamin D-rich foods include egg yolks, saltwater fish, and liver. Some other foods, like milk and cereal, often have added vitamin D. You can also take vitamin D supplements. Check with your health care provider to see how much you should take.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/vitamind.html",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Vitamin E",
+    "definition": ">Vitamin E is an antioxidant. It plays a role in your immune system and metabolic processes. Most people get enough vitamin E from the foods they eat. Good sources of vitamin E include vegetable oils, margarine, nuts and seeds, and leafy greens. Vitamin E is added to foods like cereals. It is also available as a supplement.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/vitamine.html",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Vitamin K",
+    "definition": ">Vitamin K helps your body by making proteins for healthy bones and tissues. It also makes proteins for blood clotting. There are different types of vitamin K. Most people get vitamin K from plants such as green vegetables and dark berries. Bacteria in your intestines also produce small amounts of another type of vitamin K.",
+    "reference": "NIH MedlinePlus",
+    "reference_url": "https://medlineplus.gov/vitamink.html",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Vitamins",
+    "definition": ">Vitamins are substances that our bodies need to develop and function normally. They include vitamins A, C, D, E, and K, choline, and the B vitamins (thiamin, riboflavin, niacin, pantothenic acid, biotin, vitamin B6, vitamin B12, and folate/folic acid).",
+    "reference": "National Institutes of Health, Office of Dietary Supplements ",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Vitamins"
+  },
+  {
+    "term": ">Water-Soluble  Vitamins",
+    "definition": ">Water-soluble vitamins include all the B vitamins and vitamin C.  The body does not easily store water-soluble vitamins and flushes out the extra in the urine.",
+    "reference": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "reference_url": "",
+    "category": "Definitions of Health Terms: Vitamins"
+  }
+]
