@@ -227,7 +227,3 @@ Prompt and UI rules enforce:
 1. Add automated checks for index health and data freshness.
 1. Add tests for intent routing and retrieval merge behavior.
 
-## 14. Additional Documentation
-
-- For deeper internals and examples, see `README_2.md`.
-- For ETL details, see `Preparation/ideation2/README.md`.
